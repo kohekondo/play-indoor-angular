@@ -10,6 +10,7 @@
     "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "@angular/animations": "^4.4.6",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
@@ -18,6 +19,10 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "~4.0.0",
+    "@webcomponents/custom-elements": "^1.0.0",
+    "clarity-angular": "^0.10.11",
+    "clarity-icons": "^0.10.11",
+    "clarity-ui": "^0.10.11",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
     "ts-loader": "^2.1.0",
